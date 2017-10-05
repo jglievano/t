@@ -5,6 +5,6 @@ display them on request.
 
 ## Notes
 
-- Written in Ruby.
+- Written in *Bash*.
 - `t` displays all TODO items.
 - `t <todo>` adds `<todo>` to TODO list.
