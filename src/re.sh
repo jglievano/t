@@ -60,6 +60,6 @@ else
   if [ ${#POSITIONAL[@]} -eq 0 ]; then
     cat ~/.t/${TARGET}
   else
-    echo "* ${KEYWORD}: ${POSITIONAL[@]}" >> ~/.t/${TARGET}
+    echo "* ${KEYWORD} ${POSITIONAL[@]}" >> ~/.t/${TARGET}
   fi
 fi
